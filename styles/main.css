@@ -29,16 +29,21 @@ a:hover{
     color: #963;
 }
 
+#bill{
+    margin-top: 20px;
+    width: 100%;
+}
+
 .cta{
     position: relative;
-    top: -45px;
-    font-size: 20px;
+    top: -55px;
+    font-size: 30px;
     background-color: #fff;
     opacity: 0.7;
 }
 #cta_text{
     display: inline;
-    margin: 10px 50px;
+    margin: 5px 50px;
 }
 
 #cta_link{
