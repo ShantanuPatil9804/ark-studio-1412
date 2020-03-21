@@ -61,19 +61,19 @@ a:hover{
     margin: 0px 50px;
 }
 
-.services_wrapper{
+.services wrapper{
     display:flex;
     flex-flow: column nowrap;
     align-items: center;
 }
 
-.services_wrapper > ul{
+.services wrapper > ul{
     display:flex;
     flex-flow: rom nowrap;
     justify-content: space-between;
 }
 
-.services_wrapper li{
+.services wrapper li{
     max-width: 400px;
     list-style: none;
     display:flex;
@@ -86,19 +86,19 @@ a:hover{
     display:inline;
 }
 
-.testimonials_wrapper{
+.testimonials wrapper{
     display:flex;
     flex-flow: rom nowrap;
     justify-content: space-between;
 }
 
-.testimonials_wrapper ul{
+.testimonials wrapper ul{
     display:flex;
     flex-flow: rom nowrap;
     justify-content: space-evenly;
 }
 
-.testimonials_wrapper ul li{
+.testimonials wrapper ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
