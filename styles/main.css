@@ -1,35 +1,93 @@
 .transparent_nav{
     position: sticky;
     top : 0;
+    background-color: #fff;
+    opacity: 0.7;
 }
 .nav_bar{
-    background-color: rgba(69,69,69, 0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    max-height: 80px;
 }
 
-#nav_list li{
-    list-style:none;
-    display:inline;
-    float: right;
-    min-width: 200px;
-    padding: 20px;
+#nav_list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-basis: 30%;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #963;
+}
+
 .cta{
-    font-size: 30px;
-    background: rgba(96,96,96, 0.7);
+    position: relative;
+    top: -45px;
+    font-size: 20px;
+    background-color: #fff;
+    opacity: 0.7;
+}
+#cta_text{
+    display: inline;
+    margin: 10px 50px;
+}
+
+#cta_link{
+    display: inline;
+    float: right;
+    margin: 0px 50px;
+}
+
+.services_wrapper{
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.services_wrapper > ul{
+    display:flex;
+    flex-flow: rom nowrap;
+    justify-content: space-between;
 }
 
 .services_wrapper li{
-    display: inline-block;
     max-width: 400px;
+    list-style: none;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 .recent_work img{
-    max-width:20%;
+    max-width:19%;
     display:inline;
 }
 
+.testimonials_wrapper{
+    display:flex;
+    flex-flow: rom nowrap;
+    justify-content: space-between;
+}
+
+.testimonials_wrapper ul{
+    display:flex;
+    flex-flow: rom nowrap;
+    justify-content: space-evenly;
+}
+
 .testimonials_wrapper ul li{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 30%;
     margin: 10px;
 }
@@ -39,14 +97,23 @@
   transition: transform .2s;
 }
 
-.testimonials_wrapper li{
-    display:inline;
-    max-width:30%;
+footer{
+    background-color: #333;
 }
 
-footer_widget div {
-    display: inline-block;
-    max-width: 300px;
-    margin: 50px;
-    background: #969696
+footer_widget{
+    display:flex;
+    flex-flow: rom nowrap;
+    justify-content: space-around;
+}
+
+footer_widget li{
+    list-style: none;
+}
+
+.rights{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
