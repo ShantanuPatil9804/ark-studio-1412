@@ -111,7 +111,7 @@ a:hover{
   transition: transform .2s;
 }
 
-footer{
+.footer_widget{
     background-color: #333;
 }
 
