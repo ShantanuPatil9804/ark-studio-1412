@@ -1,3 +1,8 @@
+body{
+    background-color: #111;
+    margin:0
+}
+
 .transparent_nav{
     position: sticky;
     top : 0;
@@ -8,7 +13,11 @@
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    max-height: 80px;
+    max-height: 60px;
+}
+
+.nav_bar > img{
+    max-height: 60px;
 }
 
 #nav_list{
@@ -26,11 +35,11 @@ a{
 
 a:hover{
     text-decoration: underline;
-    color: #963;
+    color: #693;
 }
 
 #bill{
-    margin-top: 20px;
+    margin-top: 5px;
     width: 100%;
 }
 
@@ -111,7 +120,9 @@ footer_widget{
     flex-flow: rom nowrap;
     justify-content: space-around;
 }
-
+footer_widget div{
+    max-width: 25%;
+}
 footer_widget li{
     list-style: none;
 }
@@ -121,4 +132,5 @@ footer_widget li{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 10px;
 }
