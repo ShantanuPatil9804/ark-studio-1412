@@ -115,15 +115,15 @@ a:hover{
     background-color: #333;
 }
 
-footer_widget{
+.footer_widget{
     display:flex;
     flex-flow: rom nowrap;
     justify-content: space-around;
 }
-footer_widget div{
+.footer_widget div{
     max-width: 25%;
 }
-footer_widget li{
+.footer_widget li{
     list-style: none;
 }
 
